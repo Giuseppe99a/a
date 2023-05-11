@@ -8,7 +8,7 @@
 
 button {
   font-size: 30px;
-  background-color: #05aa91;
+  background-color: skyblue;
   color: white;
   border: none;
   border-radius: none;
@@ -37,7 +37,7 @@ body {
   outline: none;
 }
 .custom-search-botton {
-  position: absolute;
+  position: fixed;
   right: 3px; 
   top: 3px;
   bottom: 3px;

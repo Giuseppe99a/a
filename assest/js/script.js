@@ -1,13 +1,8 @@
 
-function myFunction() {
-    document.getElementById("Los Angeles").innerHTML = "https://api.teleport.org/api/cities/?search=los%20angeles";
-}
+async function myFunction() {
+    const response = await fetch("https://api.teleport.org/api/urban_areas/slug:los-angeles/scores/")
+    const obj = await response.json()
+   return obj;
+} 
 
-fetch('https://api.teleport.org/api/cities/LosAngeles/')
-.then(data => {
-return data.json();
-})
-.then(post => {
-console.log(post.title);
-});
 
