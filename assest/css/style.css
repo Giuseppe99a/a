@@ -9,12 +9,15 @@
 button {
   font-size: 30px;
   background-color: skyblue;
-  color: white;
+  color: grey;
   border: none;
   border-radius: none;
   padding: 10px 20px;
   cursor: pointer;
   text-align: center;
+  position: relative;
+    left: 800px;
+    top: 190px;
 }
 
 
@@ -35,9 +38,13 @@ body {
   line-height: 1;
   box-sizing: border-box;
   outline: none;
+  position:absolute;
+  left: 500px;
+  top:200px;
+
 }
 .custom-search-botton {
-  position: fixed;
+  position: relative;
   right: 3px; 
   top: 3px;
   bottom: 3px;
@@ -49,4 +56,18 @@ body {
   padding: 0 10px;
   border-radius: 100px;
   z-index: 2;
+  color:black;
+}
+
+.logo{
+  color: var(--text-color);
+  font-size: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  position:absolute;
+  left: 610px;
+}
+em { 
+  color: var(--main-color);
+  font-style: normal;
 }
