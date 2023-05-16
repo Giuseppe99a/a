@@ -44,8 +44,10 @@ body {
 
 }
 .custom-search-botton {
-  position: relative;
-  right: 3px; 
+  
+  position: inherit;
+
+  right: 3px;
   top: 3px;
   bottom: 3px;
   border: 0;
